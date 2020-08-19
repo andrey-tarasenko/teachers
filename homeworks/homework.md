@@ -1,1 +1,1 @@
-Here is going to bve an information about our lessons. Enjoy it, bitch!
+Here is going to be an information about our lessons. Enjoy it, bitch!
