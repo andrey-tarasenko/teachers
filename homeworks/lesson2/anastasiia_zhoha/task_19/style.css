@@ -1,0 +1,71 @@
+@font-face {
+font-family: Source Sans Pro;
+src: url(Source_Sans_Pro/SourceSansPro-Regular.ttf);
+src: url(Source_Sans_Pro/SourceSansPro-Bold.ttf);
+}
+
+body {
+    display: flex;
+    height: 100vh;
+}
+
+h1{
+    color: pink;
+}
+
+h2{
+    color: gray;
+    text-align: center; 
+}
+
+.container {
+    font-size: 20px;
+    font-weight: 700;
+    margin: 10px;
+}
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.ks-cboxtags {
+    list-style: none;
+    padding: 20px;
+}
+
+input[type="checkbox"]{
+display: none;
+}
+
+li {
+    display: inline;
+margin: 10px;
+}
+
+label {
+    font-size: 14px;
+    font-family: Source Sans Pro;
+    font-weight: 400;
+    display: inline-block;
+    background-color:  #fff;
+    color: #adadad;
+    border: 2px solid gray;
+    border-radius: 25px;
+    white-space: nowrap;
+    margin: 10px 0px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+input[type="checkbox"]:checked + label{
+background-color:  #000066;
+border: 2px solid #000066;
+transition: 1s;
+}
+
+input[type="checkbox"]:checked + label::after {
+    content: "\2713";
+}
+
