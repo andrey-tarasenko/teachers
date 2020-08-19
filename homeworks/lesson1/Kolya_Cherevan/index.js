@@ -5,7 +5,6 @@ alert(firstWord)
 
 /*task2/2*/
 
-
 function displayAuthor() {
 	const author = 'Spidier Man';
 	  alert(author) 
