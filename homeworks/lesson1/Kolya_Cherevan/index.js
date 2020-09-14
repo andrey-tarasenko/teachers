@@ -1,6 +1,6 @@
 /*task1/2*/
 
-const firstWord = 'Hello JavaScript from outside!';
+const firstWord = 'Hello JavaScript from inside!';
 alert(firstWord)
 
 /*task2/2*/
